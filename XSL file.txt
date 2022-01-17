@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" 
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:template match="/">
+		<html>
+		<head>
+		</head>
+		<body>
+		<h1 style="text-align:center">Employee Mangement System</h1>
+		<table border="2" align="center">
+		<tr>
+		<th>Name</th>
+                <th>Id</th>
+                <th>Age</th>
+		<th>Salary</th>
+                <th>Emailid</th>
+                <th>Phno</th>
+                <th>Designation</th>
+		</tr>
+		<xsl:for-each select="Company/Employee">
+		<xsl:sort select="Name"></xsl:sort>
+		<xsl:if test="Age &gt; 50">
+		<tr>
+		<td>
+		<xsl:value-of select="Name"></xsl:value-of>
+		</td>
+		<td>
+		<xsl:value-of select="Age"></xsl:value-of>
+		</td>
+		<td>
+		<xsl:value-of select="Salary"></xsl:value-of>
+		</td>
+		<td>
+		<xsl:value-of select="Emailid"></xsl:value-of>
+		</td>
+		<td>
+		<xsl:value-of select="Phno"></xsl:value-of>
+		</td>
+		<td>
+		<xsl:value-of select="Designation"></xsl:value-of>
+		</td>
+		</tr>
+                <xsl:choose>
+                <xsl:when test="amount &gt; 50">
+                <td bgcolor="#ff00ff">
+                <xsl:value-of select="Name"/></td>
+               </xsl:when>
+               <xsl:otherwise>
+                <td><xsl:value-of select="Name"/></td>
+               </xsl:otherwise>
+                </xsl:choose>
+		</xsl:if>
+		</xsl:for-each>
+		</table>
+		</body>
+		</html>
+	</xsl:template>
+</xsl:stylesheet>

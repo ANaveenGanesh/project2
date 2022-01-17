@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="test.xsl"?>
+<Company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="emp.xsd">
+  <Employee>
+    <Name>William</Name>
+    <Age>54</Age>
+    <Salary>200000</Salary>
+    <Emailid> william@gmail.com</Emailid>
+    <Phno>8876637637</Phno>
+    <Designation>Project Manager</Designation>
+  </Employee>
+ <Employee>
+    <Name>James</Name>
+    <Age>37</Age>
+    <Salary>60000</Salary>
+    <Emailid> James@gmail.com</Emailid>
+    <Phno>9675235612</Phno>
+    <Designation>Asnt Developer</Designation>
+ </Employee>
+ <Employee>
+    <Name>John</Name>
+    <Age>42</Age>
+    <Salary>90000</Salary>
+    <Emailid>John@gmail.com</Emailid>
+    <Phno>9732752323</Phno>
+    <Designation>Director</Designation>
+ </Employee>
+ <Employee>
+    <Name>Mark</Name>
+    <Age>55</Age>
+    <Salary>150000</Salary>
+    <Emailid>Mark@gmail.com</Emailid>
+    <Phno>8629849828</Phno>
+    <Designation>Manager</Designation>
+  </Employee> 
+<Employee>
+    <Name>Peter</Name>
+    <Age>41</Age>
+    <Salary>95000</Salary>
+    <Emailid>peter@gmail.com</Emailid>
+    <Phno>9712537614</Phno>
+    <Designation>Team Assistant</Designation>
+  </Employee>
+</Company>
+  
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
