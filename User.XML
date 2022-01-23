@@ -1,0 +1,30 @@
+<Payment>
+<User>
+ <Name>Prakash</Name>
+ <Age>27</Age>
+ <Department>Initialization</Department>
+ <Salary>10000</Salary>
+</User>
+
+ <User>
+ <Name>Ramesh</Name>
+ <Age>34</Age>
+ <Department>Planning</Department>
+ <Salary>20000</Salary>
+ </User>
+
+ <User>
+ <Name>Ravindra</Name>
+ <Age>28</Age>
+ <Department>Implementation</Department>
+ <Salary>30000</Salary>
+ </User>
+
+ <User>
+ <Name>Rajan</Name>
+ <Age>24</Age>
+ <Department>Procurement</Department>
+ <Salary>40000</Salary>
+</User>
+
+</Payment>

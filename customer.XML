@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<customers>
+    <customer>
+        <firstname>Vikas</firstname>
+        <lastname>chandra</lastname>
+        <title>Manager</title>
+        <division>Team Management</division>
+        <building>271</building>
+        <room>1</room>
+    </customer>
+    <customer>
+        <firstname>Ajit</firstname>
+        <lastname>Kumar</lastname>
+        <title>Assintant Manager</title>
+        <division>Team Assistance</division>
+        <building>272</building>
+        <room>2</room>
+    </customer>
+    <customer>
+        <firstname>Vishal</firstname>
+        <lastname>kumar</lastname>
+        <title>Project director</title>
+        <division>Project direction</division>
+        <building>273</building>
+        <room>3</room>
+    </customer>
+    <customer>
+        <firstname>Rajesh</firstname>
+        <lastname>kumar</lastname>
+        <title>Project Manager</title>
+        <division>Project Management</division>
+        <building>274</building>
+        <room>4</room>
+    </customer>
+    <customer>
+        <firstname>Suresh</firstname>
+        <lastname>Kumar</lastname>
+        <title>Project assistant</title>
+        <division>Project assistance</division>
+        <building>275</building>
+        <room>5</room>
+    </customer>
+
+</customers>
